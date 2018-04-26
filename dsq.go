@@ -118,5 +118,6 @@ func main() {
 		return nil
 	}
 
+	fmt.Printf("--> %q\n", os.Args)
 	app.Run(os.Args)
 }
